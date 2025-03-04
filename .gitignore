@@ -1,0 +1,32 @@
+# 🚀 Python 编译 & 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🚀 虚拟环境（Venv, Virtualenv）
+venv/
+ENV/
+env/
+.venv/
+OptimizingDEXAggregator/
+
+# 🚀 Mypy & Type Checking 相关
+.mypy_cache/
+.dmypy.json
+
+# 🚀 PPO 训练模型 & 强化学习缓存
+logs/
+checkpoints/
+models/
+results/
+
+# 🚀 Jupyter Notebook 相关
+.ipynb_checkpoints/
+
+# 🚀 VS Code & IDE 配置文件（不需要提交）
+.vscode/
+*.code-workspace
+
+# 🚀 MacOS & Linux 系统文件
+.DS_Store
+*.swp
